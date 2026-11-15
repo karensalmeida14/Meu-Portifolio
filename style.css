@@ -1,0 +1,58 @@
+
+/* CONFIGURAÇÕES GERAIS */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f6f9;
+    color: #333;
+    scroll-behavior: smooth;
+}
+
+/* SEÇÃO PERFIL */
+.perfil {
+    background-color: #14243a;
+    color: white;
+    padding: 150px 20px 100px;
+}
+
+.perfil h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.perfil h3 {
+    color: #65b5f0;
+    margin-bottom: 25px;
+}
+
+.perfil p {
+    max-width: 700px;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.7;
+}
+
+/* SEÇÃO PROJETOS */
+.projeto {
+    border: none;
+    border-radius: 12px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* RECURSO NOVO: ANIMAÇÃO HOVER */
+.projeto:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+/* SEÇÃO CONTATO */
+.contato {
+    background-color: #14243a;
+    color: white;
+    padding: 60px 20px;
+}
+
+/* RODAPÉ */
+footer {
+    font-size: 14px;
+}
